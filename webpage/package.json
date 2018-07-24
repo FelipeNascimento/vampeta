@@ -10,7 +10,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf ../docs && react-scripts build && mv build ../docs",
+    "prebuild":"rm -rf ../docs",
+    "build": "react-scripts build",
+    "postbuild":"mv build ../docs",
+    "deploy":"npm run prebuild && npm run build npm run postbuild",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

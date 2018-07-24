@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Wallpaper do vampeta</h1>
         </header>
-        <img src="/love.jpg"/>
+        <img src="./love.jpg"/>
 
         <table>
           <thead>
@@ -22,7 +22,7 @@ class App extends Component {
             <tr>
               <td>Mac (OSX)</td>
               <td>
-                <a href="/mac.zip">Download</a>
+                <a href="./mac.zip">Download</a>
               </td>
             </tr>
           </tbody>
