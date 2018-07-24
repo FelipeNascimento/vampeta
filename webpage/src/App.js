@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Wallpaper do vampeta</h1>
         </header>
-        <img src="%PUBLIC_URL%/love.jpg"/>
+        <img src={process.env.PUBLIC_URL + "/love.jpg"}/>
 
         <table>
           <thead>
@@ -22,7 +22,7 @@ class App extends Component {
             <tr>
               <td>Mac (OSX)</td>
               <td>
-                <a href="%PUBLIC_URL%/mac.zip">Download</a>
+                <a href={process.env.PUBLIC_URL + "/mac.zip"}>Download</a>
               </td>
             </tr>
           </tbody>
