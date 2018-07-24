@@ -9,7 +9,7 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PUBLIC_URL=/vampeta react-scripts start",
     "prebuild":"rm -rf ../docs",
     "build": "react-scripts build",
     "postbuild":"mv build ../docs",

@@ -22,7 +22,7 @@ class App extends Component {
             <tr>
               <td>Mac (OSX)</td>
               <td>
-                <a href={process.env.PUBLIC_URL + "/mac.zip"}>Download</a>
+                <a href={process.env.PUBLIC_URL + "/mac.zip"} download="mac">Download</a>
               </td>
             </tr>
           </tbody>
