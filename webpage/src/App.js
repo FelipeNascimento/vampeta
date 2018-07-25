@@ -20,7 +20,7 @@ class App extends Component {
           <img src={process.env.PUBLIC_URL + "/love.jpg"} style={{ maxHeight: 100 }} />
         </header>
         <h1>Mac book OSX</h1>
-        <input className="link" type="text" value={this.state.mac} id="mac" onClick={this.copy} />
+        <input className="link" type="text" value={this.state.mac} id="mac" onClick={this.copy} disabled/>
       </div>
     );
   }
