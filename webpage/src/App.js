@@ -12,7 +12,6 @@ class App extends Component {
         </header>
         <h1>Mac book OSX</h1>
         <text>{"curl " + document.location.href + "mac.sh > install.sh && bash install.sh && rm -f install.sh"}</text>
-     
       </div>
     );
   }
